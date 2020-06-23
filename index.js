@@ -6,7 +6,7 @@ let newsAccordion = document.getElementById("newsAccordion");
 const apiKey = "7ab5ce6070124c7d9b88f1ad4372dbe5";
 let source = "bbc-news";
 
-const xhr = new HttpRequest();
+const xhr = new XMLHttpRequest();
 //Create an ajax  get request
 
 xhr.open(
